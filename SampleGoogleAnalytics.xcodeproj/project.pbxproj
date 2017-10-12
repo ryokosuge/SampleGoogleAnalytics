@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A9091C3538C93DF27989C0A /* Pods_SampleGoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36BDDBA3397117AD98A76EF /* Pods_SampleGoogleAnalytics.framework */; };
+		F8B02C811F8F9A2000A326CE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B02C801F8F9A2000A326CE /* AdSupport.framework */; };
 		F8B346681F8F93BF00DCF322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B346671F8F93BF00DCF322 /* AppDelegate.swift */; };
 		F8B3466A1F8F93BF00DCF322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B346691F8F93BF00DCF322 /* ViewController.swift */; };
 		F8B3466D1F8F93BF00DCF322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B3466B1F8F93BF00DCF322 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		A6523A8CF86F80773D59D337 /* Pods-SampleGoogleAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleGoogleAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleGoogleAnalytics/Pods-SampleGoogleAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
 		D36BDDBA3397117AD98A76EF /* Pods_SampleGoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleGoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B02C7F1F8F953D00A326CE /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F8B02C801F8F9A2000A326CE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		F8B346641F8F93BF00DCF322 /* SampleGoogleAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleGoogleAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B346671F8F93BF00DCF322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B346691F8F93BF00DCF322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B02C811F8F9A2000A326CE /* AdSupport.framework in Frameworks */,
 				4A9091C3538C93DF27989C0A /* Pods_SampleGoogleAnalytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +47,7 @@
 		152F91A987B0F6A0EBA17297 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F8B02C801F8F9A2000A326CE /* AdSupport.framework */,
 				D36BDDBA3397117AD98A76EF /* Pods_SampleGoogleAnalytics.framework */,
 			);
 			name = Frameworks;
